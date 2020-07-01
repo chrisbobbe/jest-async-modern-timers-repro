@@ -1,0 +1,18 @@
+{
+  "name": "jest-repro",
+  "version": "1.0.0",
+  "description": "Repro: Promises don't work with 'modern' fake timers",
+  "main": "index.js",
+  "author": "Chris Bobbe",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0"
+  },
+  "dependencies": {
+    "promise": "^8.1.0"
+  }
+}
