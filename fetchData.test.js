@@ -1,4 +1,4 @@
-// global.Promise = require('promise');
+global.Promise = require('promise');
 
 const fetchDataReal = require('./fetchData').fetchData;
 const fetchDataErrorReal = require('./fetchData').fetchDataError;
